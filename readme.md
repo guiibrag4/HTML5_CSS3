@@ -1,0 +1,1 @@
+Curso realizado gratuitamente, através do canal "curso em vídeo"

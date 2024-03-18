@@ -1,0 +1,1 @@
+Isso é como um "mini-projeto", em que colocarei todos os conhecimentos que aprendi de html em prática. Eu vou fazer um site que contém um favicon, marcações semânticas no texto, parágrafos, algumas formatações, lista e navegação por links externos e internos, além de um link de dowload.
