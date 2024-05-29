@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem flexível</title>
+    <style>
+        body {
+            margin: 0 0 0 10px;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        p {
+            font-size: 1.2em;
+            font-family: Arial, sans-serif;
+            color: #121111;
+        }
+    </style>
+</head>
+<body>
+    <h1>Imagem flexível</h1>
+    <p>Amplie e reduza o tamanho da tela, a imagem irá lhe acompanhar 😉</p>
+    <picture>
+        <source media="(max-width: 700px )" srcset="assets/pyke-4.png" type="image/png">
+        <source media="(max-width: 1200px )" srcset="assets/pyke-3.png" type="image/png">
+        <source media="(max-width: 1600px )" srcset="assets/pyke-2.png" type="image/png">
+        <img src="assets/pyke.png" alt="Imagem flexível">
+    </picture>
+    <p>Não ta perfeito, mas se treinar bastante e procurar os tamanhas certos, da dboa. O importante é entender o princípio, né? <strong>Observação:</strong>essas imagens foram feitas utilizando o software GIMP. Imagens criadas são compactadas, e isso faz com que o peso do site fique menor. É muito difenrente de só redimensionar a imagem com media querie ou outras formas.</p>
+</body>
+</html>

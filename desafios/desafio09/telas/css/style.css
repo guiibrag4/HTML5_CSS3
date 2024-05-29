@@ -1,0 +1,38 @@
+h1 {
+    color: white;
+    text-align: center;
+}
+
+body {
+    text-align: center;
+}
+
+a {
+    text-align: center;
+}
+
+.img-banner {
+    width: 18%;
+    height: 15%;
+}
+
+.video-container {
+    overflow: auto;
+}
+
+.linkPlaylist {
+    color: red;
+}
+
+.espaço {
+    margin: 0px 0px 10px 10px;
+}
+
+.cor {
+    background-color: rgb(49, 49, 48);
+}
+
+#link-curso-completo {
+    color: white;
+    text-align: center;
+}
